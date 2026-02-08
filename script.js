@@ -4,6 +4,6 @@ function somar() {
 
   const soma = Number(num1) + Number(num2);
 
-  document.getElementById("resultado").innerText = 
-    "Resultado: " + soma;
+  document.getElementById("resultado")
+  .innerText = "Resultado: " + soma;
 }
